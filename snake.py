@@ -3,13 +3,11 @@ import time
 import pygame
 from random import *
 
-
 # Position类，通过其构造函数，设置x和y
 class Position(object):
     def __init__(self, x, y):
         self.x = x
         self.y = y
-
 
 # 生成随机的食物
 def new_food(head):
