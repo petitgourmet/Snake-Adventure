@@ -9,7 +9,7 @@ class Position(object):
         self.x = x
         self.y = y
 
-# 生成随机的食物
+# 生成随机的食物 
 def new_food(head):
     while True:
         new_food = Position(randint(0, 48) * 20, randint(0, 29) * 20)
